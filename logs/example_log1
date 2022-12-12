@@ -1,1 +1,5767 @@
+--3a8b9c41-A--
+[26/Mar/2017:17:58:25 --0400] WNg5gX8AAQEAADKzHQ0AAAAD 192.168.86.114 51399 192.168.86.83 80
+--3a8b9c41-B--
+GET /icons/ HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--3a8b9c41-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 215
+Keep-Alive: timeout=5, max=8
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--3a8b9c41-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /icons/
+on this server.<br />
+</p>
+</body></html>
+
+--3a8b9c41-H--
+Apache-Error: [file "mod_autoindex.c"] [line 2321] [level 3] AH01276: Cannot serve directory %s: No matching DirectoryIndex (%s) found, and server-generated directory index forbidden by Options directive
+Apache-Handler: httpd/unix-directory
+Stopwatch: 1490565505540889 2424 (- - -)
+Stopwatch2: 1490565505540889 2424; combined=165, p1=155, p2=8, p3=0, p4=0, p5=2, sr=37, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--3a8b9c41-Z--
+
+--1bec8949-A--
+[26/Mar/2017:17:58:30 --0400] WNg5hn8AAQEAADKwcQ4AAAAA 192.168.86.114 47433 192.168.86.83 80
+--1bec8949-B--
+GET /server-status/ HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--1bec8949-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 223
+Keep-Alive: timeout=5, max=57
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--1bec8949-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /server-status/
+on this server.<br />
+</p>
+</body></html>
+
+--1bec8949-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565510647171 536 (- - -)
+Stopwatch2: 1490565510647171 536; combined=129, p1=125, p2=0, p3=0, p4=0, p5=4, sr=36, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--1bec8949-Z--
+
+--1bec8949-A--
+[26/Mar/2017:17:58:30 --0400] WNg5hn8AAQEAADKzHRYAAAAD 192.168.86.114 60303 192.168.86.83 80
+--1bec8949-B--
+GET /server-status/NonExistent.html HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--1bec8949-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 239
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--1bec8949-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /server-status/NonExistent.html
+on this server.<br />
+</p>
+</body></html>
+
+--1bec8949-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565510672844 492 (- - -)
+Stopwatch2: 1490565510672844 492; combined=130, p1=128, p2=0, p3=0, p4=0, p5=2, sr=36, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--1bec8949-Z--
+
+--f9698076-A--
+[26/Mar/2017:17:58:49 --0400] WNg5mX8AAQEAADKwcWkAAAAA 192.168.86.114 38205 192.168.86.83 80
+--f9698076-B--
+GET /external/phpids/0.6/tests/allTests.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--f9698076-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--f9698076-E--
+
+--f9698076-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565529930346 2543 (- - -)
+Stopwatch2: 1490565529930346 2543; combined=149, p1=133, p2=10, p3=1, p4=0, p5=4, sr=37, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--f9698076-Z--
+
+--e56ea747-A--
+[26/Mar/2017:17:58:59 --0400] WNg5o38AAQEAADKya5sAAAAC 192.168.86.114 36501 192.168.86.83 80
+--e56ea747-B--
+GET /external/phpids/0.6/tests/IDS/CachingTest.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--e56ea747-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--e56ea747-E--
+
+--e56ea747-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565539991642 5430 (- - -)
+Stopwatch2: 1490565539991642 5430; combined=226, p1=209, p2=10, p3=1, p4=0, p5=5, sr=45, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--e56ea747-Z--
+
+--831edd7b-A--
+[26/Mar/2017:17:59:00 --0400] WNg5pH8AAQEAADKwcW4AAAAA 192.168.86.114 51383 192.168.86.83 80
+--831edd7b-B--
+GET /external/phpids/0.6/tests/IDS/EventTest.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--831edd7b-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--831edd7b-E--
+
+--831edd7b-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565540054981 2545 (- - -)
+Stopwatch2: 1490565540054981 2545; combined=192, p1=179, p2=9, p3=1, p4=0, p5=3, sr=56, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--831edd7b-Z--
+
+--831edd7b-A--
+[26/Mar/2017:17:59:00 --0400] WNg5pH8AAQEAADYaZT4AAAAH 192.168.86.114 52921 192.168.86.83 80
+--831edd7b-B--
+GET /external/phpids/0.6/tests/IDS/ExceptionTest.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--831edd7b-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--831edd7b-E--
+
+--831edd7b-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565540070869 1705 (- - -)
+Stopwatch2: 1490565540070869 1705; combined=138, p1=123, p2=9, p3=1, p4=0, p5=4, sr=35, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--831edd7b-Z--
+
+--831edd7b-A--
+[26/Mar/2017:17:59:00 --0400] WNg5pH8AAQEAADKx5PEAAAAB 192.168.86.114 46527 192.168.86.83 80
+--831edd7b-B--
+GET /external/phpids/0.6/tests/IDS/FilterTest.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--831edd7b-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--831edd7b-E--
+
+--831edd7b-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565540094251 1489 (- - -)
+Stopwatch2: 1490565540094251 1489; combined=150, p1=136, p2=9, p3=1, p4=0, p5=3, sr=41, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--831edd7b-Z--
+
+--831edd7b-A--
+[26/Mar/2017:17:59:00 --0400] WNg5pH8AAQEAADK0sRIAAAAE 192.168.86.114 52391 192.168.86.83 80
+--831edd7b-B--
+GET /external/phpids/0.6/tests/IDS/InitTest.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--831edd7b-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--831edd7b-E--
+
+--831edd7b-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565540137835 2690 (- - -)
+Stopwatch2: 1490565540137835 2690; combined=157, p1=142, p2=9, p3=1, p4=0, p5=4, sr=42, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--831edd7b-Z--
+
+--831edd7b-A--
+[26/Mar/2017:17:59:00 --0400] WNg5pH8AAQEAADYUyWQAAAAF 192.168.86.114 53629 192.168.86.83 80
+--831edd7b-B--
+GET /external/phpids/0.6/tests/IDS/MonitorTest.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--831edd7b-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--831edd7b-E--
+
+--831edd7b-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565540162285 4182 (- - -)
+Stopwatch2: 1490565540162285 4182; combined=175, p1=161, p2=10, p3=1, p4=0, p5=3, sr=43, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--831edd7b-Z--
+
+--831edd7b-A--
+[26/Mar/2017:17:59:00 --0400] WNg5pH8AAQEAADYW8noAAAAG 192.168.86.114 34087 192.168.86.83 80
+--831edd7b-B--
+GET /external/phpids/0.6/tests/IDS/ReportTest.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--831edd7b-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--831edd7b-E--
+
+--831edd7b-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565540178168 4522 (- - -)
+Stopwatch2: 1490565540178168 4522; combined=165, p1=147, p2=9, p3=2, p4=0, p5=5, sr=42, sw=2, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--831edd7b-Z--
+
+--6bc48a5a-A--
+[26/Mar/2017:17:59:03 --0400] WNg5p38AAQEAADK0sRMAAAAE 192.168.86.114 59727 192.168.86.83 80
+--6bc48a5a-B--
+GET  HTTP/1.1
+
+--6bc48a5a-F--
+
+--6bc48a5a-E--
+
+--6bc48a5a-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565543315093 542 (- - -)
+Stopwatch2: 1490565543315093 542; combined=170, p1=166, p2=0, p3=1, p4=0, p5=3, sr=52, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--6bc48a5a-Z--
+
+--798a0c7c-A--
+[26/Mar/2017:18:00:32 --0400] WNg6AH8AAQEAADYUyaoAAAAF 192.168.86.114 57877 192.168.86.83 80
+--798a0c7c-B--
+GET /external/phpids/0.6/docs/examples/cakephp/ids.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--798a0c7c-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--798a0c7c-E--
+
+--798a0c7c-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565632386093 2694 (- - -)
+Stopwatch2: 1490565632386093 2694; combined=136, p1=124, p2=9, p3=1, p4=0, p5=2, sr=33, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--798a0c7c-Z--
+
+--798a0c7c-A--
+[26/Mar/2017:18:00:32 --0400] WNg6AH8AAQEAADYW8r0AAAAG 192.168.86.114 53935 192.168.86.83 80
+--798a0c7c-B--
+GET /external/phpids/0.6/docs/examples/cakephp/intrusion.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--798a0c7c-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--798a0c7c-E--
+
+--798a0c7c-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565632409253 1396 (- - -)
+Stopwatch2: 1490565632409253 1396; combined=158, p1=143, p2=11, p3=0, p4=0, p5=3, sr=41, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--798a0c7c-Z--
+
+--70327376-A--
+[26/Mar/2017:18:01:07 --0400] WNg6I38AAQEAADKx5V4AAAAB 192.168.86.114 32985 192.168.86.83 80
+--70327376-B--
+GET /external/phpids/0.6/lib/IDS/Caching/Database.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--70327376-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--70327376-E--
+
+--70327376-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565667583747 4651 (- - -)
+Stopwatch2: 1490565667583747 4651; combined=169, p1=154, p2=10, p3=1, p4=0, p5=3, sr=45, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--70327376-Z--
+
+--70327376-A--
+[26/Mar/2017:18:01:07 --0400] WNg6I38AAQEAADKwcdEAAAAA 192.168.86.114 34663 192.168.86.83 80
+--70327376-B--
+GET /external/phpids/0.6/lib/IDS/Caching/File.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--70327376-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--70327376-E--
+
+--70327376-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565667670154 3005 (- - -)
+Stopwatch2: 1490565667670154 3005; combined=147, p1=134, p2=10, p3=0, p4=0, p5=3, sr=37, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--70327376-Z--
+
+--70327376-A--
+[26/Mar/2017:18:01:07 --0400] WNg6I38AAQEAADYUyckAAAAF 192.168.86.114 57627 192.168.86.83 80
+--70327376-B--
+GET /external/phpids/0.6/lib/IDS/Caching/Memcached.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--70327376-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--70327376-E--
+
+--70327376-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565667721878 3481 (- - -)
+Stopwatch2: 1490565667721878 3481; combined=158, p1=143, p2=9, p3=1, p4=0, p5=4, sr=42, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--70327376-Z--
+
+--70327376-A--
+[26/Mar/2017:18:01:07 --0400] WNg6I38AAQEAADYW8tsAAAAG 192.168.86.114 42727 192.168.86.83 80
+--70327376-B--
+GET /external/phpids/0.6/lib/IDS/Caching/Session.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--70327376-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--70327376-E--
+
+--70327376-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565667764544 1443 (- - -)
+Stopwatch2: 1490565667764544 1443; combined=156, p1=144, p2=9, p3=0, p4=0, p5=3, sr=42, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--70327376-Z--
+
+--70327376-A--
+[26/Mar/2017:18:01:07 --0400] WNg6I38AAQEAADK0sWIAAAAE 192.168.86.114 42267 192.168.86.83 80
+--70327376-B--
+GET /external/phpids/0.6/lib/IDS/Log/Composite.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--70327376-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--70327376-E--
+
+--70327376-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565667872507 1929 (- - -)
+Stopwatch2: 1490565667872507 1929; combined=226, p1=210, p2=11, p3=1, p4=0, p5=3, sr=74, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--70327376-Z--
+
+--70327376-A--
+[26/Mar/2017:18:01:07 --0400] WNg6I38AAQEAADKzHa8AAAAD 192.168.86.114 59461 192.168.86.83 80
+--70327376-B--
+GET /external/phpids/0.6/lib/IDS/Log/Database.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--70327376-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--70327376-E--
+
+--70327376-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565667888500 1880 (- - -)
+Stopwatch2: 1490565667888500 1880; combined=149, p1=126, p2=16, p3=1, p4=1, p5=4, sr=35, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--70327376-Z--
+
+--70327376-A--
+[26/Mar/2017:18:01:07 --0400] WNg6I38AAQEAADKya6cAAAAC 192.168.86.114 50623 192.168.86.83 80
+--70327376-B--
+GET /external/phpids/0.6/lib/IDS/Log/Email.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--70327376-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--70327376-E--
+
+--70327376-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565667908014 2696 (- - -)
+Stopwatch2: 1490565667908014 2696; combined=178, p1=162, p2=10, p3=1, p4=0, p5=4, sr=43, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--70327376-Z--
+
+--70327376-A--
+[26/Mar/2017:18:01:07 --0400] WNg6I38AAQEAADYaZWoAAAAH 192.168.86.114 59963 192.168.86.83 80
+--70327376-B--
+GET /external/phpids/0.6/lib/IDS/Log/File.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--70327376-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--70327376-E--
+
+--70327376-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565667923473 1924 (- - -)
+Stopwatch2: 1490565667923473 1924; combined=173, p1=159, p2=11, p3=0, p4=0, p5=2, sr=42, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--70327376-Z--
+
+--6c355061-A--
+[26/Mar/2017:18:02:18 --0400] WNg6an8AAQEAADKwceIAAAAA 192.168.86.114 52553 192.168.86.83 80
+--6c355061-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier.autoload.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: text/html, text/xml
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--6c355061-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--6c355061-E--
+
+--6c355061-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565738734581 1156 (- - -)
+Stopwatch2: 1490565738734581 1156; combined=147, p1=133, p2=10, p3=0, p4=0, p5=3, sr=38, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--6c355061-Z--
+
+--0d67797a-A--
+[26/Mar/2017:18:03:42 --0400] WNg6vn8AAQEAADKx5o0AAAAB 192.168.86.114 50063 192.168.86.83 80
+--0d67797a-B--
+GET /.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--0d67797a-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 218
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--0d67797a-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--0d67797a-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565822515295 746 (- - -)
+Stopwatch2: 1490565822515295 746; combined=153, p1=150, p2=0, p3=0, p4=0, p5=3, sr=39, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--0d67797a-Z--
+
+--bceaae6f-A--
+[26/Mar/2017:18:03:43 --0400] WNg6v38AAQEAADKx5p0AAAAB 192.168.86.114 50063 192.168.86.83 80
+--bceaae6f-B--
+GET /external/phpids/0.6/docs/examples/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--bceaae6f-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 252
+Keep-Alive: timeout=5, max=84
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--bceaae6f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/docs/examples/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--bceaae6f-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565823832999 968 (- - -)
+Stopwatch2: 1490565823832999 968; combined=138, p1=133, p2=0, p3=0, p4=0, p5=5, sr=40, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--bceaae6f-Z--
+
+--97590864-A--
+[26/Mar/2017:18:03:44 --0400] WNg6wH8AAQEAADKx5qAAAAAB 192.168.86.114 50063 192.168.86.83 80
+--97590864-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--97590864-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 267
+Keep-Alive: timeout=5, max=81
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--97590864-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--97590864-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565824004030 1145 (- - -)
+Stopwatch2: 1490565824004030 1145; combined=551, p1=548, p2=0, p3=1, p4=0, p5=2, sr=57, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--97590864-Z--
+
+--97590864-A--
+[26/Mar/2017:18:03:44 --0400] WNg6wH8AAQEAADKx5qMAAAAB 192.168.86.114 50063 192.168.86.83 80
+--97590864-B--
+GET /external/phpids/0.6/lib/IDS/Config/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--97590864-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 253
+Keep-Alive: timeout=5, max=78
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--97590864-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/Config/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--97590864-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565824159747 444 (- - -)
+Stopwatch2: 1490565824159747 444; combined=143, p1=140, p2=0, p3=1, p4=0, p5=2, sr=59, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--97590864-Z--
+
+--97590864-A--
+[26/Mar/2017:18:03:44 --0400] WNg6wH8AAQEAADKx5qYAAAAB 192.168.86.114 50063 192.168.86.83 80
+--97590864-B--
+GET /external/phpids/0.6/lib/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--97590864-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 242
+Keep-Alive: timeout=5, max=75
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--97590864-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--97590864-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565824290185 637 (- - -)
+Stopwatch2: 1490565824290185 637; combined=186, p1=183, p2=0, p3=0, p4=0, p5=3, sr=58, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--97590864-Z--
+
+--97590864-A--
+[26/Mar/2017:18:03:44 --0400] WNg6wH8AAQEAADKx5qkAAAAB 192.168.86.114 50063 192.168.86.83 80
+--97590864-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/ConfigDef/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--97590864-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 290
+Keep-Alive: timeout=5, max=72
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--97590864-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/ConfigDef/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--97590864-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565824508293 431 (- - -)
+Stopwatch2: 1490565824508293 431; combined=81, p1=80, p2=0, p3=0, p4=0, p5=1, sr=21, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--97590864-Z--
+
+--97590864-A--
+[26/Mar/2017:18:03:44 --0400] WNg6wH8AAQEAADKx5qwAAAAB 192.168.86.114 50063 192.168.86.83 80
+--97590864-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/ChildDef/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--97590864-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 289
+Keep-Alive: timeout=5, max=69
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--97590864-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/ChildDef/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--97590864-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565824597769 543 (- - -)
+Stopwatch2: 1490565824597769 543; combined=147, p1=143, p2=0, p3=0, p4=0, p5=3, sr=36, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--97590864-Z--
+
+--97590864-A--
+[26/Mar/2017:18:03:44 --0400] WNg6wH8AAQEAADKx5q8AAAAB 192.168.86.114 50063 192.168.86.83 80
+--97590864-B--
+GET /external/phpids/0.6/lib/IDS/Caching/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--97590864-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 254
+Keep-Alive: timeout=5, max=66
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--97590864-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/Caching/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--97590864-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565824740992 941 (- - -)
+Stopwatch2: 1490565824740992 941; combined=139, p1=136, p2=0, p3=0, p4=0, p5=2, sr=35, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--97590864-Z--
+
+--97590864-A--
+[26/Mar/2017:18:03:44 --0400] WNg6wH8AAQEAADKx5rIAAAAB 192.168.86.114 50063 192.168.86.83 80
+--97590864-B--
+GET /external/recaptcha/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--97590864-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 237
+Keep-Alive: timeout=5, max=63
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--97590864-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/recaptcha/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--97590864-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565824804288 417 (- - -)
+Stopwatch2: 1490565824804288 417; combined=133, p1=126, p2=0, p3=0, p4=0, p5=5, sr=27, sw=2, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--97590864-Z--
+
+--97590864-A--
+[26/Mar/2017:18:03:44 --0400] WNg6wH8AAQEAADKx5rUAAAAB 192.168.86.114 50063 192.168.86.83 80
+--97590864-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/DefinitionCache/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--97590864-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 296
+Keep-Alive: timeout=5, max=60
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--97590864-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/DefinitionCache/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--97590864-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565824873555 1025 (- - -)
+Stopwatch2: 1490565824873555 1025; combined=151, p1=146, p2=0, p3=0, p4=1, p5=3, sr=47, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--97590864-Z--
+
+--97590864-A--
+[26/Mar/2017:18:03:44 --0400] WNg6wH8AAQEAADKx5rgAAAAB 192.168.86.114 50063 192.168.86.83 80
+--97590864-B--
+GET /config/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--97590864-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 225
+Keep-Alive: timeout=5, max=57
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--97590864-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /config/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--97590864-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565824942053 443 (- - -)
+Stopwatch2: 1490565824942053 443; combined=82, p1=80, p2=0, p3=0, p4=0, p5=2, sr=20, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--97590864-Z--
+
+--ff88f418-A--
+[26/Mar/2017:18:03:45 --0400] WNg6wX8AAQEAADKx5rsAAAAB 192.168.86.114 50063 192.168.86.83 80
+--ff88f418-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/Injector/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--ff88f418-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 289
+Keep-Alive: timeout=5, max=54
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--ff88f418-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/Injector/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--ff88f418-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565825070805 447 (- - -)
+Stopwatch2: 1490565825070805 447; combined=130, p1=129, p2=0, p3=0, p4=0, p5=1, sr=25, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--ff88f418-Z--
+
+--ff88f418-A--
+[26/Mar/2017:18:03:45 --0400] WNg6wX8AAQEAADKx5r4AAAAB 192.168.86.114 50063 192.168.86.83 80
+--ff88f418-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/ConfigSchema/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--ff88f418-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 293
+Keep-Alive: timeout=5, max=51
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--ff88f418-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/ConfigSchema/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--ff88f418-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565825186354 365 (- - -)
+Stopwatch2: 1490565825186354 365; combined=91, p1=88, p2=0, p3=1, p4=0, p5=2, sr=21, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--ff88f418-Z--
+
+--ff88f418-A--
+[26/Mar/2017:18:03:45 --0400] WNg6wX8AAQEAADKx5sEAAAAB 192.168.86.114 50063 192.168.86.83 80
+--ff88f418-B--
+GET /external/phpids/0.6/docs/phpdocumentor/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--ff88f418-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 257
+Keep-Alive: timeout=5, max=48
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--ff88f418-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/docs/phpdocumentor/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--ff88f418-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565825244285 3532 (- - -)
+Stopwatch2: 1490565825244285 3532; combined=149, p1=146, p2=0, p3=0, p4=0, p5=3, sr=41, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--ff88f418-Z--
+
+--ff88f418-A--
+[26/Mar/2017:18:03:45 --0400] WNg6wX8AAQEAADKx5sQAAAAB 192.168.86.114 50063 192.168.86.83 80
+--ff88f418-B--
+GET /external/phpids/0.6/lib/IDS/tmp/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--ff88f418-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 250
+Keep-Alive: timeout=5, max=45
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--ff88f418-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/tmp/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--ff88f418-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565825323666 516 (- - -)
+Stopwatch2: 1490565825323666 516; combined=131, p1=127, p2=0, p3=1, p4=0, p5=3, sr=36, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--ff88f418-Z--
+
+--ff88f418-A--
+[26/Mar/2017:18:03:45 --0400] WNg6wX8AAQEAADKx5scAAAAB 192.168.86.114 50063 192.168.86.83 80
+--ff88f418-B--
+GET /external/phpids/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--ff88f418-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 234
+Keep-Alive: timeout=5, max=42
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--ff88f418-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--ff88f418-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565825414660 310 (- - -)
+Stopwatch2: 1490565825414660 310; combined=76, p1=73, p2=0, p3=0, p4=0, p5=2, sr=18, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--ff88f418-Z--
+
+--ff88f418-A--
+[26/Mar/2017:18:03:45 --0400] WNg6wX8AAQEAADKx5soAAAAB 192.168.86.114 50063 192.168.86.83 80
+--ff88f418-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/Filter/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--ff88f418-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 287
+Keep-Alive: timeout=5, max=39
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--ff88f418-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/Filter/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--ff88f418-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565825506161 645 (- - -)
+Stopwatch2: 1490565825506161 645; combined=159, p1=155, p2=0, p3=0, p4=1, p5=3, sr=35, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--ff88f418-Z--
+
+--ff88f418-A--
+[26/Mar/2017:18:03:45 --0400] WNg6wX8AAQEAADKx5s0AAAAB 192.168.86.114 50063 192.168.86.83 80
+--ff88f418-B--
+GET /external/phpids/0.6/docs/phpdocumentor/media/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--ff88f418-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 263
+Keep-Alive: timeout=5, max=36
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--ff88f418-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/docs/phpdocumentor/media/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--ff88f418-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565825572819 592 (- - -)
+Stopwatch2: 1490565825572819 592; combined=154, p1=151, p2=0, p3=0, p4=0, p5=3, sr=44, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--ff88f418-Z--
+
+--ff88f418-A--
+[26/Mar/2017:18:03:45 --0400] WNg6wX8AAQEAADKx5tAAAAAB 192.168.86.114 50063 192.168.86.83 80
+--ff88f418-B--
+GET /external/phpids/0.6/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--ff88f418-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 238
+Keep-Alive: timeout=5, max=33
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--ff88f418-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--ff88f418-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565825680080 579 (- - -)
+Stopwatch2: 1490565825680080 579; combined=162, p1=158, p2=0, p3=1, p4=0, p5=3, sr=48, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--ff88f418-Z--
+
+--ff88f418-A--
+[26/Mar/2017:18:03:45 --0400] WNg6wX8AAQEAADKx5tMAAAAB 192.168.86.114 50063 192.168.86.83 80
+--ff88f418-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/Printer/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--ff88f418-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 288
+Keep-Alive: timeout=5, max=30
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--ff88f418-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/Printer/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--ff88f418-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565825810935 527 (- - -)
+Stopwatch2: 1490565825810935 527; combined=153, p1=150, p2=0, p3=0, p4=0, p5=3, sr=43, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--ff88f418-Z--
+
+--ff88f418-A--
+[26/Mar/2017:18:03:45 --0400] WNg6wX8AAQEAADKx5tYAAAAB 192.168.86.114 50063 192.168.86.83 80
+--ff88f418-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/EntityLookup/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--ff88f418-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 293
+Keep-Alive: timeout=5, max=27
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--ff88f418-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/EntityLookup/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--ff88f418-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565825907730 519 (- - -)
+Stopwatch2: 1490565825907730 519; combined=127, p1=124, p2=0, p3=0, p4=0, p5=3, sr=33, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--ff88f418-Z--
+
+--eb63154e-A--
+[26/Mar/2017:18:03:46 --0400] WNg6wn8AAQEAADKx5tkAAAAB 192.168.86.114 50063 192.168.86.83 80
+--eb63154e-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/TagTransform/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--eb63154e-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 293
+Keep-Alive: timeout=5, max=24
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--eb63154e-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/TagTransform/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--eb63154e-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565826011611 456 (- - -)
+Stopwatch2: 1490565826011611 456; combined=123, p1=119, p2=0, p3=0, p4=0, p5=3, sr=33, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--eb63154e-Z--
+
+--eb63154e-A--
+[26/Mar/2017:18:03:46 --0400] WNg6wn8AAQEAADKx5twAAAAB 192.168.86.114 50063 192.168.86.83 80
+--eb63154e-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/Lexer/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--eb63154e-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 286
+Keep-Alive: timeout=5, max=21
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--eb63154e-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/Lexer/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--eb63154e-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565826167180 979 (- - -)
+Stopwatch2: 1490565826167180 979; combined=200, p1=197, p2=0, p3=0, p4=0, p5=3, sr=42, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--eb63154e-Z--
+
+--eb63154e-A--
+[26/Mar/2017:18:03:46 --0400] WNg6wn8AAQEAADKx5t8AAAAB 192.168.86.114 50063 192.168.86.83 80
+--eb63154e-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--eb63154e-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 280
+Keep-Alive: timeout=5, max=18
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--eb63154e-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--eb63154e-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565826408732 562 (- - -)
+Stopwatch2: 1490565826408732 562; combined=234, p1=231, p2=0, p3=0, p4=0, p5=3, sr=31, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--eb63154e-Z--
+
+--eb63154e-A--
+[26/Mar/2017:18:03:46 --0400] WNg6wn8AAQEAADKx5uIAAAAB 192.168.86.114 50063 192.168.86.83 80
+--eb63154e-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/HTMLModule/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--eb63154e-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 291
+Keep-Alive: timeout=5, max=15
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--eb63154e-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/HTMLModule/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--eb63154e-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565826566952 1536 (- - -)
+Stopwatch2: 1490565826566952 1536; combined=359, p1=354, p2=0, p3=0, p4=0, p5=5, sr=55, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--eb63154e-Z--
+
+--eb63154e-A--
+[26/Mar/2017:18:03:46 --0400] WNg6wn8AAQEAADKx5uUAAAAB 192.168.86.114 50063 192.168.86.83 80
+--eb63154e-B--
+GET /external/phpids/0.6/docs/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--eb63154e-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 243
+Keep-Alive: timeout=5, max=12
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--eb63154e-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/docs/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--eb63154e-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565826709683 560 (- - -)
+Stopwatch2: 1490565826709683 560; combined=150, p1=146, p2=0, p3=0, p4=0, p5=4, sr=38, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--eb63154e-Z--
+
+--eb63154e-A--
+[26/Mar/2017:18:03:46 --0400] WNg6wn8AAQEAADKx5ugAAAAB 192.168.86.114 50063 192.168.86.83 80
+--eb63154e-B--
+GET /external/phpids/0.6/lib/IDS/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--eb63154e-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 246
+Keep-Alive: timeout=5, max=9
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--eb63154e-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--eb63154e-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565826836337 721 (- - -)
+Stopwatch2: 1490565826836337 721; combined=151, p1=147, p2=0, p3=0, p4=0, p5=4, sr=40, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--eb63154e-Z--
+
+--eb63154e-A--
+[26/Mar/2017:18:03:46 --0400] WNg6wn8AAQEAADKx5usAAAAB 192.168.86.114 50063 192.168.86.83 80
+--eb63154e-B--
+GET /external/phpids/0.6/tests/coverage/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--eb63154e-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 253
+Keep-Alive: timeout=5, max=6
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--eb63154e-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/tests/coverage/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--eb63154e-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565826943968 523 (- - -)
+Stopwatch2: 1490565826943968 523; combined=174, p1=170, p2=0, p3=1, p4=0, p5=2, sr=63, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--eb63154e-Z--
+
+--4df59d42-A--
+[26/Mar/2017:18:03:47 --0400] WNg6w38AAQEAADKx5vEAAAAB 192.168.86.114 50063 192.168.86.83 80
+--4df59d42-B--
+GET /external/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--4df59d42-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 227
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--4df59d42-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--4df59d42-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565827224043 631 (- - -)
+Stopwatch2: 1490565827224043 631; combined=125, p1=123, p2=0, p3=0, p4=0, p5=2, sr=30, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--4df59d42-Z--
+
+--4df59d42-A--
+[26/Mar/2017:18:03:47 --0400] WNg6w38AAQEAADK0sv0AAAAE 192.168.86.114 43743 192.168.86.83 80
+--4df59d42-B--
+GET /external/phpids/0.6/lib/IDS/Filter/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--4df59d42-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 253
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--4df59d42-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/Filter/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--4df59d42-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565827400584 1049 (- - -)
+Stopwatch2: 1490565827400584 1049; combined=184, p1=180, p2=0, p3=0, p4=0, p5=3, sr=52, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--4df59d42-Z--
+
+--4df59d42-A--
+[26/Mar/2017:18:03:47 --0400] WNg6w38AAQEAADK0swAAAAAE 192.168.86.114 43743 192.168.86.83 80
+--4df59d42-B--
+GET /external/phpids/0.6/lib/IDS/Log/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--4df59d42-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 250
+Keep-Alive: timeout=5, max=95
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--4df59d42-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/Log/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--4df59d42-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565827563305 979 (- - -)
+Stopwatch2: 1490565827563305 979; combined=140, p1=134, p2=0, p3=0, p4=1, p5=4, sr=39, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--4df59d42-Z--
+
+--4df59d42-A--
+[26/Mar/2017:18:03:47 --0400] WNg6w38AAQEAADK0swMAAAAE 192.168.86.114 43743 192.168.86.83 80
+--4df59d42-B--
+GET /external/phpids/0.6/lib/IDS/vendors/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--4df59d42-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 254
+Keep-Alive: timeout=5, max=92
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--4df59d42-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--4df59d42-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565827702030 1375 (- - -)
+Stopwatch2: 1490565827702030 1375; combined=99, p1=96, p2=0, p3=0, p4=0, p5=2, sr=25, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--4df59d42-Z--
+
+--4df59d42-A--
+[26/Mar/2017:18:03:47 --0400] WNg6w38AAQEAADK0swYAAAAE 192.168.86.114 43743 192.168.86.83 80
+--4df59d42-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/AttrDef/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--4df59d42-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 288
+Keep-Alive: timeout=5, max=89
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--4df59d42-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/AttrDef/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--4df59d42-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565827807781 472 (- - -)
+Stopwatch2: 1490565827807781 472; combined=132, p1=127, p2=0, p3=1, p4=1, p5=3, sr=35, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--4df59d42-Z--
+
+--064ea337-A--
+[26/Mar/2017:18:03:48 --0400] WNg6xH8AAQEAADK0swkAAAAE 192.168.86.114 43743 192.168.86.83 80
+--064ea337-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/Strategy/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--064ea337-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 289
+Keep-Alive: timeout=5, max=86
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--064ea337-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/Strategy/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--064ea337-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565828036080 734 (- - -)
+Stopwatch2: 1490565828036080 734; combined=130, p1=127, p2=0, p3=1, p4=0, p5=2, sr=36, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--064ea337-Z--
+
+--064ea337-A--
+[26/Mar/2017:18:03:48 --0400] WNg6xH8AAQEAADK0swwAAAAE 192.168.86.114 43743 192.168.86.83 80
+--064ea337-B--
+GET /external/phpids/0.6/tests/IDS/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--064ea337-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 248
+Keep-Alive: timeout=5, max=83
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--064ea337-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/tests/IDS/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--064ea337-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565828164789 412 (- - -)
+Stopwatch2: 1490565828164789 412; combined=129, p1=127, p2=0, p3=0, p4=0, p5=2, sr=47, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--064ea337-Z--
+
+--064ea337-A--
+[26/Mar/2017:18:03:48 --0400] WNg6xH8AAQEAADK0sw8AAAAE 192.168.86.114 43743 192.168.86.83 80
+--064ea337-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/Language/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--064ea337-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 289
+Keep-Alive: timeout=5, max=80
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--064ea337-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/Language/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--064ea337-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565828285566 1035 (- - -)
+Stopwatch2: 1490565828285566 1035; combined=267, p1=263, p2=0, p3=1, p4=0, p5=3, sr=78, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--064ea337-Z--
+
+--064ea337-A--
+[26/Mar/2017:18:03:48 --0400] WNg6xH8AAQEAADK0sxIAAAAE 192.168.86.114 43743 192.168.86.83 80
+--064ea337-B--
+GET /external/phpids/0.6/tests/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--064ea337-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 244
+Keep-Alive: timeout=5, max=77
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--064ea337-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/tests/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--064ea337-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565828392283 521 (- - -)
+Stopwatch2: 1490565828392283 521; combined=144, p1=140, p2=0, p3=0, p4=0, p5=3, sr=48, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--064ea337-Z--
+
+--064ea337-A--
+[26/Mar/2017:18:03:48 --0400] WNg6xH8AAQEAADK0sxUAAAAE 192.168.86.114 43743 192.168.86.83 80
+--064ea337-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/VarParser/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--064ea337-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 290
+Keep-Alive: timeout=5, max=74
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--064ea337-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/VarParser/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--064ea337-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565828560757 509 (- - -)
+Stopwatch2: 1490565828560757 509; combined=94, p1=91, p2=0, p3=1, p4=0, p5=2, sr=24, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--064ea337-Z--
+
+--064ea337-A--
+[26/Mar/2017:18:03:48 --0400] WNg6xH8AAQEAADK0sxgAAAAE 192.168.86.114 43743 192.168.86.83 80
+--064ea337-B--
+GET /external/phpids/0.6/docs/phpdocumentor/PHPIDS/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--064ea337-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 264
+Keep-Alive: timeout=5, max=71
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--064ea337-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/docs/phpdocumentor/PHPIDS/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--064ea337-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565828679273 562 (- - -)
+Stopwatch2: 1490565828679273 562; combined=134, p1=130, p2=0, p3=1, p4=0, p5=3, sr=38, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--064ea337-Z--
+
+--064ea337-A--
+[26/Mar/2017:18:03:48 --0400] WNg6xH8AAQEAADK0sxsAAAAE 192.168.86.114 43743 192.168.86.83 80
+--064ea337-B--
+GET /external/phpids/0.6/docs/examples/cakephp/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--064ea337-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 260
+Keep-Alive: timeout=5, max=68
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--064ea337-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/docs/examples/cakephp/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--064ea337-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565828833465 429 (- - -)
+Stopwatch2: 1490565828833465 429; combined=106, p1=103, p2=0, p3=0, p4=0, p5=3, sr=28, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--064ea337-Z--
+
+--064ea337-A--
+[26/Mar/2017:18:03:48 --0400] WNg6xH8AAQEAADK0sx4AAAAE 192.168.86.114 43743 192.168.86.83 80
+--064ea337-B--
+GET /docs/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--064ea337-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 223
+Keep-Alive: timeout=5, max=65
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--064ea337-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /docs/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--064ea337-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565828943203 769 (- - -)
+Stopwatch2: 1490565828943203 769; combined=403, p1=399, p2=0, p3=0, p4=1, p5=3, sr=227, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--064ea337-Z--
+
+--e4f0072d-A--
+[26/Mar/2017:18:03:49 --0400] WNg6xX8AAQEAADK0syEAAAAE 192.168.86.114 43743 192.168.86.83 80
+--e4f0072d-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/Token/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--e4f0072d-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 286
+Keep-Alive: timeout=5, max=62
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--e4f0072d-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/Token/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--e4f0072d-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565829157126 655 (- - -)
+Stopwatch2: 1490565829157126 655; combined=127, p1=124, p2=0, p3=0, p4=0, p5=3, sr=34, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--e4f0072d-Z--
+
+--e4f0072d-A--
+[26/Mar/2017:18:03:49 --0400] WNg6xX8AAQEAADK0syQAAAAE 192.168.86.114 43743 192.168.86.83 80
+--e4f0072d-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/AttrTransform/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--e4f0072d-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 294
+Keep-Alive: timeout=5, max=59
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--e4f0072d-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/AttrTransform/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--e4f0072d-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565829264943 506 (- - -)
+Stopwatch2: 1490565829264943 506; combined=134, p1=130, p2=0, p3=0, p4=0, p5=3, sr=33, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--e4f0072d-Z--
+
+--e4f0072d-A--
+[26/Mar/2017:18:03:49 --0400] WNg6xX8AAQEAADK0sycAAAAE 192.168.86.114 43743 192.168.86.83 80
+--e4f0072d-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/URIScheme/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--e4f0072d-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 290
+Keep-Alive: timeout=5, max=56
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--e4f0072d-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/URIScheme/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--e4f0072d-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565829477542 631 (- - -)
+Stopwatch2: 1490565829477542 631; combined=142, p1=129, p2=0, p3=1, p4=0, p5=11, sr=36, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--e4f0072d-Z--
+
+--e4f0072d-A--
+[26/Mar/2017:18:03:49 --0400] WNg6xX8AAQEAADK0syoAAAAE 192.168.86.114 43743 192.168.86.83 80
+--e4f0072d-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/URIFilter/.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--e4f0072d-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 290
+Keep-Alive: timeout=5, max=53
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--e4f0072d-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/URIFilter/.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--e4f0072d-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565829618690 1361 (- - -)
+Stopwatch2: 1490565829618690 1361; combined=266, p1=259, p2=0, p3=1, p4=0, p5=5, sr=84, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--e4f0072d-Z--
+
+--04eb2913-A--
+[26/Mar/2017:18:03:57 --0400] WNg6zX8AAQEAADYUy3AAAAAF 192.168.86.114 33583 192.168.86.83 80
+--04eb2913-B--
+GET /external/phpids/0.6/lib/IDS/Caching/Memcached.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--04eb2913-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--04eb2913-E--
+
+--04eb2913-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565837779229 801 (- - -)
+Stopwatch2: 1490565837779229 801; combined=135, p1=123, p2=9, p3=0, p4=0, p5=3, sr=35, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--04eb2913-Z--
+
+--04eb2913-A--
+[26/Mar/2017:18:03:57 --0400] WNg6zX8AAQEAADYW9PMAAAAG 192.168.86.114 51969 192.168.86.83 80
+--04eb2913-B--
+GET /external/phpids/0.6/lib/IDS/Caching/Session.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--04eb2913-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--04eb2913-E--
+
+--04eb2913-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565837847461 745 (- - -)
+Stopwatch2: 1490565837847461 745; combined=159, p1=145, p2=9, p3=1, p4=0, p5=3, sr=32, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--04eb2913-Z--
+
+--04eb2913-A--
+[26/Mar/2017:18:03:57 --0400] WNg6zX8AAQEAADYUy3EAAAAF 192.168.86.114 59045 192.168.86.83 80
+--04eb2913-B--
+GET /external/phpids/0.6/docs/examples/cakephp/ids.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--04eb2913-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--04eb2913-E--
+
+--04eb2913-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565837932380 1253 (- - -)
+Stopwatch2: 1490565837932380 1253; combined=180, p1=163, p2=10, p3=1, p4=1, p5=4, sr=41, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--04eb2913-Z--
+
+--716c4048-A--
+[26/Mar/2017:18:03:58 --0400] WNg6zn8AAQEAADY4uKEAAAAL 192.168.86.114 44035 192.168.86.83 80
+--716c4048-B--
+GET /external/phpids/0.6/tests/IDS/InitTest.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--716c4048-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--716c4048-E--
+
+--716c4048-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565838028254 787 (- - -)
+Stopwatch2: 1490565838028254 787; combined=137, p1=126, p2=9, p3=0, p4=0, p5=2, sr=35, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--716c4048-Z--
+
+--716c4048-A--
+[26/Mar/2017:18:03:58 --0400] WNg6zn8AAQEAADK0s8cAAAAE 192.168.86.114 52019 192.168.86.83 80
+--716c4048-B--
+GET /external/phpids/0.6/tests/allTests.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--716c4048-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--716c4048-E--
+
+--716c4048-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565838042279 936 (- - -)
+Stopwatch2: 1490565838042279 936; combined=124, p1=115, p2=7, p3=0, p4=0, p5=2, sr=34, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--716c4048-Z--
+
+--716c4048-A--
+[26/Mar/2017:18:03:58 --0400] WNg6zn8AAQEAADKx52wAAAAB 192.168.86.114 41727 192.168.86.83 80
+--716c4048-B--
+GET /external/phpids/0.6/tests/IDS/ReportTest.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--716c4048-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--716c4048-E--
+
+--716c4048-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565838081096 3662 (- - -)
+Stopwatch2: 1490565838081096 3662; combined=573, p1=539, p2=26, p3=0, p4=1, p5=6, sr=223, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--716c4048-Z--
+
+--716c4048-A--
+[26/Mar/2017:18:03:58 --0400] WNg6zn8AAQEAADYW9PUAAAAG 192.168.86.114 36985 192.168.86.83 80
+--716c4048-B--
+GET /external/phpids/0.6/lib/IDS/Caching/Database.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--716c4048-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--716c4048-E--
+
+--716c4048-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565838198149 674 (- - -)
+Stopwatch2: 1490565838198149 674; combined=101, p1=92, p2=7, p3=0, p4=0, p5=2, sr=24, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--716c4048-Z--
+
+--716c4048-A--
+[26/Mar/2017:18:03:58 --0400] WNg6zn8AAQEAADKx520AAAAB 192.168.86.114 41721 192.168.86.83 80
+--716c4048-B--
+GET /external/phpids/0.6/tests/IDS/CachingTest.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--716c4048-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--716c4048-E--
+
+--716c4048-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565838220846 815 (- - -)
+Stopwatch2: 1490565838220846 815; combined=165, p1=151, p2=10, p3=0, p4=0, p5=3, sr=42, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--716c4048-Z--
+
+--716c4048-A--
+[26/Mar/2017:18:03:58 --0400] WNg6zn8AAQEAADKwc8EAAAAA 192.168.86.114 60125 192.168.86.83 80
+--716c4048-B--
+GET /external/phpids/0.6/tests/IDS/MonitorTest.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--716c4048-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--716c4048-E--
+
+--716c4048-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565838241838 743 (- - -)
+Stopwatch2: 1490565838241838 743; combined=131, p1=119, p2=9, p3=0, p4=0, p5=3, sr=32, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--716c4048-Z--
+
+--716c4048-A--
+[26/Mar/2017:18:03:58 --0400] WNg6zn8AAQEAADYUy3MAAAAF 192.168.86.114 49399 192.168.86.83 80
+--716c4048-B--
+GET /external/phpids/0.6/tests/IDS/FilterTest.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--716c4048-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--716c4048-E--
+
+--716c4048-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565838301640 912 (- - -)
+Stopwatch2: 1490565838301640 912; combined=161, p1=132, p2=24, p3=1, p4=0, p5=4, sr=40, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--716c4048-Z--
+
+--716c4048-A--
+[26/Mar/2017:18:03:58 --0400] WNg6zn8AAQEAADY4uKMAAAAL 192.168.86.114 39899 192.168.86.83 80
+--716c4048-B--
+GET /external/phpids/0.6/lib/IDS/Log/File.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--716c4048-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--716c4048-E--
+
+--716c4048-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565838372583 711 (- - -)
+Stopwatch2: 1490565838372583 711; combined=131, p1=117, p2=10, p3=0, p4=0, p5=3, sr=32, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--716c4048-Z--
+
+--716c4048-A--
+[26/Mar/2017:18:03:58 --0400] WNg6zn8AAQEAADKzH2cAAAAD 192.168.86.114 43133 192.168.86.83 80
+--716c4048-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/HTMLDefinition.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--716c4048-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--716c4048-E--
+
+--716c4048-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565838494773 678 (- - -)
+Stopwatch2: 1490565838494773 678; combined=144, p1=133, p2=9, p3=0, p4=0, p5=2, sr=32, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--716c4048-Z--
+
+--716c4048-A--
+[26/Mar/2017:18:03:58 --0400] WNg6zn8AAQEAADKx528AAAAB 192.168.86.114 52883 192.168.86.83 80
+--716c4048-B--
+GET /external/phpids/0.6/lib/IDS/Log/Database.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--716c4048-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--716c4048-E--
+
+--716c4048-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565838632719 779 (- - -)
+Stopwatch2: 1490565838632719 779; combined=166, p1=150, p2=9, p3=0, p4=0, p5=6, sr=38, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--716c4048-Z--
+
+--716c4048-A--
+[26/Mar/2017:18:03:58 --0400] WNg6zn8AAQEAADY4uKUAAAAL 192.168.86.114 52305 192.168.86.83 80
+--716c4048-B--
+GET /external/phpids/0.6/tests/IDS/ExceptionTest.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--716c4048-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--716c4048-E--
+
+--716c4048-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565838818901 606 (- - -)
+Stopwatch2: 1490565838818901 606; combined=104, p1=95, p2=6, p3=0, p4=1, p5=2, sr=27, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--716c4048-Z--
+
+--3114343d-A--
+[26/Mar/2017:18:03:59 --0400] WNg6z38AAQEAADYW9PkAAAAG 192.168.86.114 35277 192.168.86.83 80
+--3114343d-B--
+GET /external/phpids/0.6/lib/IDS/Caching/File.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--3114343d-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--3114343d-E--
+
+--3114343d-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565839311745 1738 (- - -)
+Stopwatch2: 1490565839311745 1738; combined=264, p1=242, p2=15, p3=1, p4=0, p5=5, sr=69, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--3114343d-Z--
+
+--3114343d-A--
+[26/Mar/2017:18:03:59 --0400] WNg6z38AAQEAADYaZ5IAAAAH 192.168.86.114 49623 192.168.86.83 80
+--3114343d-B--
+GET /external/phpids/0.6/lib/IDS/Log/Email.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--3114343d-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--3114343d-E--
+
+--3114343d-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565839390182 898 (- - -)
+Stopwatch2: 1490565839390182 898; combined=138, p1=125, p2=9, p3=0, p4=0, p5=3, sr=35, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--3114343d-Z--
+
+--3114343d-A--
+[26/Mar/2017:18:03:59 --0400] WNg6z38AAQEAADKzH2oAAAAD 192.168.86.114 34831 192.168.86.83 80
+--3114343d-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/URIDefinition.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--3114343d-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--3114343d-E--
+
+--3114343d-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565839467826 890 (- - -)
+Stopwatch2: 1490565839467826 890; combined=142, p1=129, p2=10, p3=0, p4=0, p5=3, sr=37, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--3114343d-Z--
+
+--3114343d-A--
+[26/Mar/2017:18:03:59 --0400] WNg6z38AAQEAADY6iWoAAAAN 192.168.86.114 57473 192.168.86.83 80
+--3114343d-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/VarParserException.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--3114343d-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--3114343d-E--
+
+--3114343d-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565839507316 674 (- - -)
+Stopwatch2: 1490565839507316 674; combined=140, p1=128, p2=9, p3=0, p4=0, p5=3, sr=40, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--3114343d-Z--
+
+--3114343d-A--
+[26/Mar/2017:18:03:59 --0400] WNg6z38AAQEAADKx53IAAAAB 192.168.86.114 47029 192.168.86.83 80
+--3114343d-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/CSSDefinition.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--3114343d-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--3114343d-E--
+
+--3114343d-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565839811916 1130 (- - -)
+Stopwatch2: 1490565839811916 1130; combined=219, p1=200, p2=12, p3=1, p4=1, p5=4, sr=50, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--3114343d-Z--
+
+--29046b31-A--
+[26/Mar/2017:18:04:00 --0400] WNg60H8AAQEAADY24lkAAAAJ 192.168.86.114 34031 192.168.86.83 80
+--29046b31-B--
+GET /external/phpids/0.6/lib/version.phps HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--29046b31-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 245
+Keep-Alive: timeout=5, max=2
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--29046b31-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /external/phpids/0.6/lib/version.phps
+on this server.<br />
+</p>
+</body></html>
+
+--29046b31-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565840137253 590 (- - -)
+Stopwatch2: 1490565840137253 590; combined=117, p1=113, p2=0, p3=0, p4=0, p5=3, sr=34, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--29046b31-Z--
+
+--29046b31-A--
+[26/Mar/2017:18:04:00 --0400] WNg60H8AAQEAADY74w8AAAAO 192.168.86.114 44575 192.168.86.83 80
+--29046b31-B--
+GET /external/phpids/0.6/lib/IDS/Log/Composite.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--29046b31-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--29046b31-E--
+
+--29046b31-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565840551752 924 (- - -)
+Stopwatch2: 1490565840551752 924; combined=123, p1=111, p2=7, p3=1, p4=0, p5=3, sr=26, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--29046b31-Z--
+
+--29046b31-A--
+[26/Mar/2017:18:04:00 --0400] WNg60H8AAQEAADKwc-MAAAAA 192.168.86.114 53093 192.168.86.83 80
+--29046b31-B--
+GET /external/phpids/0.6/tests/IDS/EventTest.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--29046b31-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--29046b31-E--
+
+--29046b31-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565840886625 668 (- - -)
+Stopwatch2: 1490565840886625 668; combined=138, p1=125, p2=9, p3=1, p4=0, p5=3, sr=38, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--29046b31-Z--
+
+--29046b31-A--
+[26/Mar/2017:18:04:00 --0400] WNg60H8AAQEAADY74xAAAAAO 192.168.86.114 60495 192.168.86.83 80
+--29046b31-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier.autoload.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--29046b31-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--29046b31-E--
+
+--29046b31-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565840954241 603 (- - -)
+Stopwatch2: 1490565840954241 603; combined=137, p1=125, p2=10, p3=0, p4=0, p5=2, sr=34, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--29046b31-Z--
+
+--65d99326-A--
+[26/Mar/2017:18:04:01 --0400] WNg60X8AAQEAADKx53YAAAAB 192.168.86.114 51701 192.168.86.83 80
+--65d99326-B--
+GET /external/phpids/0.6/docs/examples/cakephp/intrusion.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--65d99326-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--65d99326-E--
+
+--65d99326-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565841605571 947 (- - -)
+Stopwatch2: 1490565841605571 947; combined=144, p1=129, p2=11, p3=1, p4=0, p5=2, sr=34, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--65d99326-Z--
+
+--b5befe6c-A--
+[26/Mar/2017:18:04:35 --0400] WNg6838AAQEAADY0vUoAAAAI 192.168.86.114 53747 192.168.86.83 80
+--b5befe6c-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/URIScheme/news.php?news_id=4+union+all+select+0,1,2,0x4f70656e5641532d53514c2d496e6a656374696f6e2d54657374 HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--b5befe6c-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--b5befe6c-E--
+
+--b5befe6c-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565875441129 695 (- - -)
+Stopwatch2: 1490565875441129 695; combined=123, p1=111, p2=9, p3=0, p4=0, p5=3, sr=32, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--b5befe6c-Z--
+
+--2e2f8369-A--
+[26/Mar/2017:18:04:41 --0400] WNg6@X8AAQEAADKx6hkAAAAB 192.168.86.114 60927 192.168.86.83 80
+--2e2f8369-B--
+GET  HTTP/1.1
+
+--2e2f8369-F--
+
+--2e2f8369-E--
+
+--2e2f8369-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565881633448 396 (- - -)
+Stopwatch2: 1490565881633448 396; combined=122, p1=119, p2=0, p3=0, p4=0, p5=3, sr=39, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--2e2f8369-Z--
+
+--cd2a877a-A--
+[26/Mar/2017:18:04:51 --0400] WNg7A38AAQEAADY52UoAAAAM 192.168.86.114 33979 192.168.86.83 80
+--cd2a877a-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/URIScheme/news.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--cd2a877a-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--cd2a877a-E--
+
+--cd2a877a-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565891510155 550 (- - -)
+Stopwatch2: 1490565891510155 550; combined=98, p1=88, p2=8, p3=0, p4=0, p5=2, sr=22, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--cd2a877a-Z--
+
+--0aa2456a-A--
+[26/Mar/2017:18:05:04 --0400] WNg7EH8AAQEAADK0uGsAAAAE 192.168.86.114 57859 192.168.86.83 80
+--0aa2456a-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/URIScheme//news.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--0aa2456a-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--0aa2456a-E--
+
+--0aa2456a-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490565904187188 801 (- - -)
+Stopwatch2: 1490565904187188 801; combined=153, p1=140, p2=10, p3=0, p4=0, p5=3, sr=37, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--0aa2456a-Z--
+
+--e571ed24-A--
+[26/Mar/2017:18:05:16 --0400] WNg7HH8AAQEAADK0uXMAAAAE 192.168.86.114 48742 192.168.86.83 80
+--e571ed24-B--
+GET . HTTP/1.0
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:headers: WebLogic internal IP)
+Connection: Keep-Alive
+Host: zulu.lan
+
+--e571ed24-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--e571ed24-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--e571ed24-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565916886553 432 (- - -)
+Stopwatch2: 1490565916886553 432; combined=125, p1=121, p2=0, p3=1, p4=0, p5=3, sr=33, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--e571ed24-Z--
+
+--4e633d19-A--
+[26/Mar/2017:18:05:17 --0400] WNg7HX8AAQEAADY52s0AAAAM 192.168.86.114 48780 192.168.86.83 80
+--4e633d19-B--
+PUT /nikto-test-qRQVs0sR.html HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Host: zulu.lan
+Content-Length: 22
+Connection: Keep-Alive
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:put_del_test: PUT)
+
+--4e633d19-C--
+This was a Nikto test.
+--4e633d19-F--
+HTTP/1.1 405 Method Not Allowed
+Allow: GET,HEAD,POST,OPTIONS
+Content-Length: 245
+Keep-Alive: timeout=5, max=96
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--4e633d19-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>405 Method Not Allowed</title>
+</head><body>
+<h1>Method Not Allowed</h1>
+<p>The requested method PUT is not allowed for the URL /nikto-test-qRQVs0sR.html.</p>
+</body></html>
+
+--4e633d19-H--
+Stopwatch: 1490565917018226 601 (- - -)
+Stopwatch2: 1490565917018226 601; combined=168, p1=152, p2=12, p3=0, p4=0, p5=3, sr=43, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--4e633d19-Z--
+
+--4e633d19-A--
+[26/Mar/2017:18:05:17 --0400] WNg7HX8AAQEAADY52s8AAAAM 192.168.86.114 48780 192.168.86.83 80
+--4e633d19-B--
+GET / HTTP/1.1
+Expect: <script>alert(xss)</script>
+Connection: Keep-Alive
+Host: zulu.lan
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:apache_expect_xss)
+
+--4e633d19-F--
+HTTP/1.1 417 Expectation Failed
+Content-Length: 391
+Keep-Alive: timeout=5, max=94
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--4e633d19-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>417 Expectation Failed</title>
+</head><body>
+<h1>Expectation Failed</h1>
+<p>The expectation given in the Expect request-header
+field could not be met by this server.
+The client sent<pre>
+    Expect: &lt;script&gt;alert(xss)&lt;/script&gt;
+</pre>
+</p><p>Only the 100-continue expectation is supported.</p>
+</body></html>
+
+--4e633d19-H--
+Stopwatch: 1490565917056605 253 (- - -)
+Stopwatch2: 1490565917056605 253; combined=102, p1=99, p2=0, p3=0, p4=0, p5=3, sr=26, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--4e633d19-Z--
+
+--c294e202-A--
+[26/Mar/2017:18:05:19 --0400] WNg7H38AAQEAADY4vU8AAAAL 192.168.86.114 48784 192.168.86.83 80
+--c294e202-B--
+TRACE / HTTP/1.0
+Trace-Test: Nikto
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:httpoptions: TRACE)
+Connection: Keep-Alive
+Host: zulu.lan
+
+--c294e202-F--
+HTTP/1.1 405 Method Not Allowed
+Allow: 
+Content-Length: 223
+Keep-Alive: timeout=5, max=17
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--c294e202-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>405 Method Not Allowed</title>
+</head><body>
+<h1>Method Not Allowed</h1>
+<p>The requested method TRACE is not allowed for the URL /.</p>
+</body></html>
+
+--c294e202-H--
+Stopwatch: 1490565919039255 539 (- - -)
+Stopwatch2: 1490565919039255 539; combined=138, p1=134, p2=0, p3=0, p4=0, p5=3, sr=33, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--c294e202-Z--
+
+--c294e202-A--
+[26/Mar/2017:18:05:19 --0400] WNg7H38AAQEAADY4vVAAAAAL 192.168.86.114 48784 192.168.86.83 80
+--c294e202-B--
+TRACE / HTTP/1.0
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:httpoptions: TRACE)
+Connection: Keep-Alive
+Host: zulu.lan
+Trace-Test: Nikto
+
+--c294e202-F--
+HTTP/1.1 405 Method Not Allowed
+Allow: 
+Content-Length: 223
+Keep-Alive: timeout=5, max=16
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--c294e202-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>405 Method Not Allowed</title>
+</head><body>
+<h1>Method Not Allowed</h1>
+<p>The requested method TRACE is not allowed for the URL /.</p>
+</body></html>
+
+--c294e202-H--
+Stopwatch: 1490565919052073 393 (- - -)
+Stopwatch2: 1490565919052073 393; combined=128, p1=126, p2=0, p3=0, p4=0, p5=2, sr=37, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--c294e202-Z--
+
+--1c3b6038-A--
+[26/Mar/2017:18:05:20 --0400] WNg7IH8AAQEAADY25-8AAAAJ 192.168.86.114 49733 192.168.86.83 80
+--1c3b6038-B--
+GET OPAC-kpwinSQL/index.php HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--1c3b6038-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--1c3b6038-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--1c3b6038-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565920334550 610 (- - -)
+Stopwatch2: 1490565920334550 610; combined=172, p1=169, p2=0, p3=0, p4=0, p5=3, sr=45, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--1c3b6038-Z--
+
+--2750d12c-A--
+[26/Mar/2017:18:05:21 --0400] WNg7IX8AAQEAADY26AQAAAAJ 192.168.86.114 33775 192.168.86.83 80
+--2750d12c-B--
+GET  HTTP/1.1
+
+--2750d12c-F--
+
+--2750d12c-E--
+
+--2750d12c-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565921589408 450 (- - -)
+Stopwatch2: 1490565921589408 450; combined=163, p1=160, p2=0, p3=0, p4=0, p5=2, sr=56, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--2750d12c-Z--
+
+--9e0c9261-A--
+[26/Mar/2017:18:05:22 --0400] WNg7In8AAQEAADKydIgAAAAC 192.168.86.114 48966 192.168.86.83 80
+--9e0c9261-B--
+GET /%NETHOOD%/ HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000187)
+Host: zulu.lan
+Connection: Keep-Alive
+
+--9e0c9261-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--9e0c9261-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--9e0c9261-H--
+Stopwatch: 1490565922872562 907 (- - -)
+Stopwatch2: 1490565922872562 907; combined=290, p1=285, p2=0, p3=0, p4=0, p5=4, sr=81, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--9e0c9261-Z--
+
+--35ca2214-A--
+[26/Mar/2017:18:05:29 --0400] WNg7KX8AAQEAADK0unQAAAAE 192.168.86.114 49148 192.168.86.83 80
+--35ca2214-B--
+GET /%a%s%p%d HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000471)
+
+--35ca2214-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--35ca2214-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--35ca2214-H--
+Stopwatch: 1490565929505482 428 (- - -)
+Stopwatch2: 1490565929505482 428; combined=132, p1=128, p2=0, p3=0, p4=0, p5=3, sr=31, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--35ca2214-Z--
+
+--78f3bb08-A--
+[26/Mar/2017:18:05:30 --0400] WNg7Kn8AAQEAADY524wAAAAM 192.168.86.114 49192 192.168.86.83 80
+--78f3bb08-B--
+GET /../../../../../../../../../boot.ini HTTP/1.1
+Host: zulu.lan
+Connection: Keep-Alive
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000540)
+
+--78f3bb08-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--78f3bb08-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--78f3bb08-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565930947789 377 (- - -)
+Stopwatch2: 1490565930947789 377; combined=96, p1=92, p2=0, p3=1, p4=0, p5=3, sr=25, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--78f3bb08-Z--
+
+--78f3bb08-A--
+[26/Mar/2017:18:05:30 --0400] WNg7Kn8AAQEAADYW@eQAAAAG 192.168.86.114 49230 192.168.86.83 80
+--78f3bb08-B--
+GET /../../../../winnt/repair/sam._ HTTP/1.1
+Host: zulu.lan
+Connection: Keep-Alive
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000541)
+
+--78f3bb08-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--78f3bb08-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--78f3bb08-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565930983992 910 (- - -)
+Stopwatch2: 1490565930983992 910; combined=240, p1=235, p2=0, p3=0, p4=0, p5=5, sr=58, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--78f3bb08-Z--
+
+--e695683d-A--
+[26/Mar/2017:18:05:31 --0400] WNg7K38AAQEAADY4veEAAAAL 192.168.86.114 49232 192.168.86.83 80
+--e695683d-B--
+GET ////./../.../boot.ini HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000545)
+Connection: Keep-Alive
+Host: zulu.lan
+
+--e695683d-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--e695683d-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--e695683d-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565931126028 577 (- - -)
+Stopwatch2: 1490565931126028 577; combined=185, p1=180, p2=0, p3=0, p4=1, p5=3, sr=40, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--e695683d-Z--
+
+--e695683d-A--
+[26/Mar/2017:18:05:31 --0400] WNg7K38AAQEAADY525gAAAAM 192.168.86.114 49236 192.168.86.83 80
+--e695683d-B--
+GET /DomainFiles/*//../../../../../../../../../../etc/passwd HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000553)
+Host: zulu.lan
+Connection: Keep-Alive
+
+--e695683d-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--e695683d-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--e695683d-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565931399614 486 (- - -)
+Stopwatch2: 1490565931399614 486; combined=150, p1=146, p2=0, p3=1, p4=0, p5=3, sr=38, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--e695683d-Z--
+
+--9b87a072-A--
+[26/Mar/2017:18:05:32 --0400] WNg7LH8AAQEAADKydPMAAAAC 192.168.86.114 49260 192.168.86.83 80
+--9b87a072-B--
+GET /../../../../../../../../../../etc/passwd HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000672)
+
+--9b87a072-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--9b87a072-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--9b87a072-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565932521873 466 (- - -)
+Stopwatch2: 1490565932521873 466; combined=134, p1=130, p2=0, p3=1, p4=0, p5=3, sr=35, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--9b87a072-Z--
+
+--9b87a072-A--
+[26/Mar/2017:18:05:32 --0400] WNg7LH8AAQEAADY0wOcAAAAI 192.168.86.114 49294 192.168.86.83 80
+--9b87a072-B--
+GET /%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/windows/win.ini HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000677)
+Host: zulu.lan
+Connection: Keep-Alive
+
+--9b87a072-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--9b87a072-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--9b87a072-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565932576837 313 (- - -)
+Stopwatch2: 1490565932576837 313; combined=87, p1=86, p2=0, p3=0, p4=0, p5=1, sr=23, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--9b87a072-Z--
+
+--9b87a072-A--
+[26/Mar/2017:18:05:32 --0400] WNg7LH8AAQEAADY76H4AAAAO 192.168.86.114 49298 192.168.86.83 80
+--9b87a072-B--
+GET /%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:000678)
+Host: zulu.lan
+Connection: Keep-Alive
+
+--9b87a072-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--9b87a072-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--9b87a072-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565932596853 411 (- - -)
+Stopwatch2: 1490565932596853 411; combined=112, p1=109, p2=0, p3=0, p4=0, p5=3, sr=27, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--9b87a072-Z--
+
+--db35eb02-A--
+[26/Mar/2017:18:05:42 --0400] WNg7Nn8AAQEAADKzJNEAAAAD 192.168.86.114 49590 192.168.86.83 80
+--db35eb02-B--
+GET /file/../../../../../../../../etc/ HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:001252)
+
+--db35eb02-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--db35eb02-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--db35eb02-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565942495797 424 (- - -)
+Stopwatch2: 1490565942495797 424; combined=133, p1=129, p2=0, p3=1, p4=0, p5=3, sr=35, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--db35eb02-Z--
+
+--5047bd55-A--
+[26/Mar/2017:18:05:46 --0400] WNg7On8AAQEAADK0uzcAAAAE 192.168.86.114 49682 192.168.86.83 80
+--5047bd55-B--
+GET /server-status HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:001406)
+Host: zulu.lan
+Connection: Keep-Alive
+
+--5047bd55-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 222
+Keep-Alive: timeout=5, max=11
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--5047bd55-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /server-status
+on this server.<br />
+</p>
+</body></html>
+
+--5047bd55-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565946491127 597 (- - -)
+Stopwatch2: 1490565946491127 597; combined=167, p1=165, p2=0, p3=0, p4=0, p5=2, sr=33, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--5047bd55-Z--
+
+--5047bd55-A--
+[26/Mar/2017:18:05:46 --0400] WNg7On8AAQEAADK0uz8AAAAE 192.168.86.114 49682 192.168.86.83 80
+--5047bd55-B--
+GET /../webserver.ini HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:001420)
+Connection: Keep-Alive
+Host: zulu.lan
+
+--5047bd55-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--5047bd55-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--5047bd55-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565946684459 529 (- - -)
+Stopwatch2: 1490565946684459 529; combined=157, p1=153, p2=0, p3=0, p4=0, p5=3, sr=43, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--5047bd55-Z--
+
+--71c5780b-A--
+[26/Mar/2017:18:05:47 --0400] WNg7O38AAQEAADY4vlAAAAAL 192.168.86.114 49750 192.168.86.83 80
+--71c5780b-B--
+GET ../../../../../../../../../../etc/* HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:001475)
+Connection: Keep-Alive
+Host: zulu.lan
+
+--71c5780b-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--71c5780b-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--71c5780b-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565947784803 638 (- - -)
+Stopwatch2: 1490565947784803 638; combined=178, p1=176, p2=0, p3=0, p4=0, p5=2, sr=44, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--71c5780b-Z--
+
+--71c5780b-A--
+[26/Mar/2017:18:05:47 --0400] WNg7O38AAQEAADKzJNIAAAAD 192.168.86.114 49784 192.168.86.83 80
+--71c5780b-B--
+GET ../../../../../../../../../../etc/passw* HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:001476)
+Host: zulu.lan
+Connection: Keep-Alive
+
+--71c5780b-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--71c5780b-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--71c5780b-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565947813374 418 (- - -)
+Stopwatch2: 1490565947813374 418; combined=118, p1=115, p2=0, p3=1, p4=0, p5=2, sr=30, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--71c5780b-Z--
+
+--71c5780b-A--
+[26/Mar/2017:18:05:47 --0400] WNg7O38AAQEAADY26PsAAAAJ 192.168.86.114 49786 192.168.86.83 80
+--71c5780b-B--
+GET /../config.dat HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:001491)
+
+--71c5780b-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--71c5780b-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--71c5780b-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565947994394 419 (- - -)
+Stopwatch2: 1490565947994394 419; combined=135, p1=131, p2=0, p3=0, p4=1, p5=3, sr=38, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--71c5780b-Z--
+
+--b7dda016-A--
+[26/Mar/2017:18:06:09 --0400] WNg7UX8AAQEAADKx7@UAAAAB 192.168.86.114 47955 192.168.86.83 80
+--b7dda016-B--
+some invalid request
+
+--b7dda016-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--b7dda016-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--b7dda016-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565969415522 353 (- - -)
+Stopwatch2: 1490565969415522 353; combined=95, p1=90, p2=0, p3=1, p4=0, p5=3, sr=24, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--b7dda016-Z--
+
+--eec93909-A--
+[26/Mar/2017:18:06:16 --0400] WNg7WH8AAQEAADKzJcwAAAAD 192.168.86.114 50710 192.168.86.83 80
+--eec93909-B--
+GET /.htpasswd HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:002739)
+Host: zulu.lan
+Connection: Keep-Alive
+
+--eec93909-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 218
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--eec93909-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /.htpasswd
+on this server.<br />
+</p>
+</body></html>
+
+--eec93909-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565976906253 477 (- - -)
+Stopwatch2: 1490565976906253 477; combined=134, p1=130, p2=0, p3=0, p4=0, p5=3, sr=36, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--eec93909-Z--
+
+--38db553d-A--
+[26/Mar/2017:18:06:17 --0400] WNg7WX8AAQEAADKzJdMAAAAD 192.168.86.114 50710 192.168.86.83 80
+--38db553d-B--
+GET /.htaccess HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:002746)
+
+--38db553d-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 218
+Keep-Alive: timeout=5, max=91
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--38db553d-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /.htaccess
+on this server.<br />
+</p>
+</body></html>
+
+--38db553d-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565977074028 625 (- - -)
+Stopwatch2: 1490565977074028 625; combined=134, p1=129, p2=0, p3=0, p4=0, p5=4, sr=37, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--38db553d-Z--
+
+--38db553d-A--
+[26/Mar/2017:18:06:17 --0400] WNg7WX8AAQEAADKzJeEAAAAD 192.168.86.114 50710 192.168.86.83 80
+--38db553d-B--
+GET ////../../data/config/microsrv.cfg HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:002761)
+Host: zulu.lan
+Connection: Keep-Alive
+
+--38db553d-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--38db553d-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--38db553d-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565977407190 600 (- - -)
+Stopwatch2: 1490565977407190 600; combined=180, p1=176, p2=0, p3=1, p4=0, p5=3, sr=51, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--38db553d-Z--
+
+--38db553d-A--
+[26/Mar/2017:18:06:17 --0400] WNg7WX8AAQEAADY26cYAAAAJ 192.168.86.114 50740 192.168.86.83 80
+--38db553d-B--
+GET ////////../../../../../../etc/passwd HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:002762)
+Host: zulu.lan
+Connection: Keep-Alive
+
+--38db553d-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--38db553d-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--38db553d-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490565977443101 438 (- - -)
+Stopwatch2: 1490565977443101 438; combined=127, p1=124, p2=0, p3=0, p4=0, p5=3, sr=35, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--38db553d-Z--
+
+--e26ae159-A--
+[26/Mar/2017:18:06:26 --0400] WNg7Yn8AAQEAADY@v8cAAAAK 192.168.86.114 50982 192.168.86.83 80
+--e26ae159-B--
+GET /icons/ HTTP/1.1
+Host: zulu.lan
+Connection: Keep-Alive
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:003000)
+
+--e26ae159-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 215
+Keep-Alive: timeout=5, max=51
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--e26ae159-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /icons/
+on this server.<br />
+</p>
+</body></html>
+
+--e26ae159-H--
+Apache-Error: [file "mod_autoindex.c"] [line 2321] [level 3] AH01276: Cannot serve directory %s: No matching DirectoryIndex (%s) found, and server-generated directory index forbidden by Options directive
+Apache-Handler: httpd/unix-directory
+Stopwatch: 1490565986336665 843 (- - -)
+Stopwatch2: 1490565986336665 843; combined=179, p1=168, p2=9, p3=0, p4=0, p5=2, sr=40, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--e26ae159-Z--
+
+--c062a243-A--
+[26/Mar/2017:18:06:28 --0400] WNg7ZH8AAQEAADY53ZIAAAAM 192.168.86.114 52195 192.168.86.83 80
+--c062a243-B--
+GET /%NETHOOD%/ HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--c062a243-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--c062a243-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--c062a243-H--
+Stopwatch: 1490565988508733 341 (- - -)
+Stopwatch2: 1490565988508733 341; combined=111, p1=109, p2=0, p3=0, p4=0, p5=2, sr=30, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--c062a243-Z--
+
+--454ce956-A--
+[26/Mar/2017:18:06:32 --0400] WNg7aH8AAQEAADKx8CIAAAAB 192.168.86.114 33875 192.168.86.83 80
+--454ce956-B--
+GET /server-status HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--454ce956-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 222
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--454ce956-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /server-status
+on this server.<br />
+</p>
+</body></html>
+
+--454ce956-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490565992388980 447 (- - -)
+Stopwatch2: 1490565992388980 447; combined=112, p1=110, p2=0, p3=0, p4=0, p5=2, sr=27, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--454ce956-Z--
+
+--ed79d50b-A--
+[26/Mar/2017:18:06:33 --0400] WNg7aX8AAQEAADY4v1AAAAAL 192.168.86.114 38273 192.168.86.83 80
+--ed79d50b-B--
+Secure * Secure-HTTP/1.4
+Host: zulu.lan
+Connection: close
+
+--ed79d50b-F--
+HTTP/1.1 501 Not Implemented
+Allow: GET,HEAD,POST,OPTIONS
+Content-Length: 194
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--ed79d50b-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>501 Not Implemented</title>
+</head><body>
+<h1>Not Implemented</h1>
+<p>Secure to * not supported.<br />
+</p>
+</body></html>
+
+--ed79d50b-H--
+Apache-Error: [file "core.c"] [line 4544] [level 3] AH00135: Invalid method in request %s
+Stopwatch: 1490565993916080 528 (- - -)
+Stopwatch2: 1490565993916080 528; combined=125, p1=111, p2=10, p3=1, p4=0, p5=3, sr=34, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--ed79d50b-Z--
+
+--cd377035-A--
+[26/Mar/2017:18:06:58 --0400] WNg7gn8AAQEAADY26r0AAAAJ 192.168.86.114 44725 192.168.86.83 80
+--cd377035-B--
+TRACE / HTTP/1.1
+Host: zulu.lan
+User-Agent: OpenVAS
+Max-Forwards: 0
+
+--cd377035-F--
+HTTP/1.1 405 Method Not Allowed
+Allow: 
+Content-Length: 223
+Content-Type: text/html; charset=iso-8859-1
+
+--cd377035-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>405 Method Not Allowed</title>
+</head><body>
+<h1>Method Not Allowed</h1>
+<p>The requested method TRACE is not allowed for the URL /.</p>
+</body></html>
+
+--cd377035-H--
+Stopwatch: 1490566018814820 514 (- - -)
+Stopwatch2: 1490566018814820 514; combined=116, p1=112, p2=0, p3=0, p4=0, p5=3, sr=39, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--cd377035-Z--
+
+--bece5472-A--
+[26/Mar/2017:18:07:04 --0400] WNg7h38AAQEAADKx8OgAAAAB 192.168.86.114 41303 192.168.86.83 80
+--bece5472-B--
+GET root HTTP/1.0
+Host: zulu.lan
+
+--bece5472-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--bece5472-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--bece5472-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490566023412202 1000776 (- - -)
+Stopwatch2: 1490566023412202 1000776; combined=148, p1=144, p2=0, p3=0, p4=0, p5=3, sr=44, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--bece5472-Z--
+
+--b9864a2a-A--
+[26/Mar/2017:18:07:22 --0400] WNg7mn8AAQEAADZHI@0AAAAD 192.168.86.114 40343 192.168.86.83 80
+--b9864a2a-B--
+GET /%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--b9864a2a-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--b9864a2a-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--b9864a2a-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490566042340667 515 (- - -)
+Stopwatch2: 1490566042340667 515; combined=135, p1=133, p2=0, p3=0, p4=0, p5=2, sr=38, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--b9864a2a-Z--
+
+--8252cc3a-A--
+[26/Mar/2017:18:07:32 --0400] WNg7pH8AAQEAADY53xwAAAAM 192.168.86.114 55053 192.168.86.83 80
+--8252cc3a-B--
+GET c:\boot.ini HTTP/1.1
+Connection: Close
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--8252cc3a-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--8252cc3a-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--8252cc3a-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490566052081171 536 (- - -)
+Stopwatch2: 1490566052081171 536; combined=134, p1=132, p2=0, p3=0, p4=0, p5=2, sr=35, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--8252cc3a-Z--
+
+--d92f5259-A--
+[26/Mar/2017:18:07:35 --0400] WNg7p38AAQEAADY93kEAAAAH 192.168.86.114 55657 192.168.86.83 80
+--d92f5259-B--
+GET /../../../../../../../../etc/passwd HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--d92f5259-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--d92f5259-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--d92f5259-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490566055058169 687 (- - -)
+Stopwatch2: 1490566055058169 687; combined=166, p1=164, p2=0, p3=0, p4=0, p5=2, sr=56, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--d92f5259-Z--
+
+--d92f5259-A--
+[26/Mar/2017:18:07:35 --0400] WNg7p38AAQEAADY0xKAAAAAI 192.168.86.114 42245 192.168.86.83 80
+--d92f5259-B--
+TRACE /OpenVAS2066683425.html HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--d92f5259-F--
+HTTP/1.1 405 Method Not Allowed
+Allow: 
+Content-Length: 245
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--d92f5259-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>405 Method Not Allowed</title>
+</head><body>
+<h1>Method Not Allowed</h1>
+<p>The requested method TRACE is not allowed for the URL /OpenVAS2066683425.html.</p>
+</body></html>
+
+--d92f5259-H--
+Stopwatch: 1490566055794832 390 (- - -)
+Stopwatch2: 1490566055794832 390; combined=124, p1=121, p2=0, p3=1, p4=0, p5=2, sr=33, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--d92f5259-Z--
+
+--d92f5259-A--
+[26/Mar/2017:18:07:35 --0400] WNg7p38AAQEAADY0xKEAAAAI 192.168.86.114 42245 192.168.86.83 80
+--d92f5259-B--
+TRACK /OpenVAS2066683425.html HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--d92f5259-F--
+HTTP/1.1 501 Not Implemented
+Allow: GET,HEAD,POST,OPTIONS
+Content-Length: 215
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--d92f5259-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>501 Not Implemented</title>
+</head><body>
+<h1>Not Implemented</h1>
+<p>TRACK to /OpenVAS2066683425.html not supported.<br />
+</p>
+</body></html>
+
+--d92f5259-H--
+Apache-Error: [file "core.c"] [line 4544] [level 3] AH00135: Invalid method in request %s
+Stopwatch: 1490566055797929 578 (- - -)
+Stopwatch2: 1490566055797929 578; combined=141, p1=132, p2=7, p3=0, p4=0, p5=2, sr=37, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--d92f5259-Z--
+
+--978e5d76-A--
+[26/Mar/2017:18:08:07 --0400] WNg7x38AAQEAADZrZZgAAAAF 192.168.86.114 37806 192.168.86.83 80
+--978e5d76-B--
+GET /sdk/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/etc/vmware/hostd/vmInventory.xml HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:006432)
+Connection: Keep-Alive
+Host: zulu.lan
+
+--978e5d76-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--978e5d76-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--978e5d76-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490566087920584 421 (- - -)
+Stopwatch2: 1490566087920584 421; combined=124, p1=121, p2=0, p3=0, p4=0, p5=3, sr=33, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--978e5d76-Z--
+
+--978e5d76-A--
+[26/Mar/2017:18:08:07 --0400] WNg7x38AAQEAADY27CQAAAAJ 192.168.86.114 37894 192.168.86.83 80
+--978e5d76-B--
+<script>alert(1)</script> / HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:006433)
+Host: zulu.lan, 192.168.86.83
+Content-Length: -1
+Connection: Keep-Alive
+
+--978e5d76-F--
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--978e5d76-E--
+
+--978e5d76-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490566087950423 1115 (- - -)
+Stopwatch2: 1490566087950423 1115; combined=154, p1=137, p2=11, p3=1, p4=0, p5=4, sr=38, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--978e5d76-Z--
+
+--a6df1d3e-A--
+[26/Mar/2017:18:08:12 --0400] WNg7zH8AAQEAADY-Z3gAAAAN 192.168.86.114 37994 192.168.86.83 80
+--a6df1d3e-B--
+GET /../../windows/dvr2.ini HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:006521)
+Connection: Keep-Alive
+Host: zulu.lan
+
+--a6df1d3e-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--a6df1d3e-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--a6df1d3e-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490566092580543 482 (- - -)
+Stopwatch2: 1490566092580543 482; combined=147, p1=143, p2=0, p3=0, p4=0, p5=3, sr=36, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--a6df1d3e-Z--
+
+--a6df1d3e-A--
+[26/Mar/2017:18:08:12 --0400] WNg7zH8AAQEAADY0xZ4AAAAI 192.168.86.114 38034 192.168.86.83 80
+--a6df1d3e-B--
+GET /htdocs/../../../../../../../../../../../etc/passwd HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:006522)
+Host: zulu.lan
+Connection: Keep-Alive
+
+--a6df1d3e-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--a6df1d3e-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--a6df1d3e-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490566092610835 1476 (- - -)
+Stopwatch2: 1490566092610835 1476; combined=131, p1=127, p2=0, p3=0, p4=0, p5=4, sr=36, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--a6df1d3e-Z--
+
+--69bfd932-A--
+[26/Mar/2017:18:08:13 --0400] WNg7zX8AAQEAADKx8uwAAAAB 192.168.86.114 38036 192.168.86.83 80
+--69bfd932-B--
+GET /help/../../../../../../../../../../../../../../../../etc/shadow HTTP/1.1
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:006555)
+Connection: Keep-Alive
+Host: zulu.lan
+
+--69bfd932-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--69bfd932-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--69bfd932-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490566093128009 463 (- - -)
+Stopwatch2: 1490566093128009 463; combined=139, p1=136, p2=0, p3=0, p4=0, p5=3, sr=35, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--69bfd932-Z--
+
+--de594b68-A--
+[26/Mar/2017:18:08:37 --0400] WNg75X8AAQEAADYWAMUAAAAG 192.168.86.114 43806 192.168.86.83 80
+--de594b68-B--
+GET /server-status HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+User-Agent: Mozilla/5.00 (Nikto/2.1.6) (Evasions:None) (Test:007018)
+
+--de594b68-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 222
+Keep-Alive: timeout=5, max=65
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--de594b68-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /server-status
+on this server.<br />
+</p>
+</body></html>
+
+--de594b68-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490566117314156 600 (- - -)
+Stopwatch2: 1490566117314156 600; combined=146, p1=143, p2=0, p3=1, p4=0, p5=2, sr=43, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--de594b68-Z--
+
+--01f5fe7b-A--
+[26/Mar/2017:18:08:41 --0400] WNg76X8AAQEAADY27VUAAAAJ 192.168.86.114 58667 192.168.86.83 80
+--01f5fe7b-B--
+GET /external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/URIScheme/news.php HTTP/1.1
+Connection: Keep-Alive
+Host: zulu.lan
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 [en] (X11, U; OpenVAS 8.0.8)
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, */*
+Accept-Language: en
+Accept-Charset: iso-8859-1,*,utf-8
+
+--01f5fe7b-F--
+HTTP/1.0 500 Internal Server Error
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+--01f5fe7b-E--
+
+--01f5fe7b-H--
+Apache-Error: [file "/build/php7.0-vPbiUM/php7.0-7.0.15/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490566121985796 931 (- - -)
+Stopwatch2: 1490566121985796 931; combined=163, p1=148, p2=10, p3=0, p4=1, p5=3, sr=44, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--01f5fe7b-Z--
+
+--cb1cf570-A--
+[26/Mar/2017:18:09:05 --0400] WNg8AX8AAQEAADZrZtIAAAAF 192.168.86.114 46709 192.168.86.83 80
+--cb1cf570-B--
+GET  HTTP/1.1
+
+--cb1cf570-F--
+
+--cb1cf570-E--
+
+--cb1cf570-H--
+Apache-Error: [file "core.c"] [line 4302] [level 3] AH00126: Invalid URI in request %s
+Stopwatch: 1490566145878966 384 (- - -)
+Stopwatch2: 1490566145878966 384; combined=121, p1=116, p2=0, p3=0, p4=1, p5=4, sr=40, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--cb1cf570-Z--
+
+--70175b2f-A--
+[26/Mar/2017:18:26:32 --0400] WNhAGH8AAQEAADKx9hUAAAAB 192.168.86.114 59869 192.168.86.83 80
+--70175b2f-B--
+GET %. HTTP/1.1
+Host: 192.168.86.83
+
+--70175b2f-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--70175b2f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--70175b2f-H--
+Stopwatch: 1490567192676505 532 (- - -)
+Stopwatch2: 1490567192676505 532; combined=124, p1=121, p2=0, p3=0, p4=0, p5=3, sr=43, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--70175b2f-Z--
+
+--70175b2f-A--
+[26/Mar/2017:18:26:32 --0400] WNhAGH8AAQEAADZHKKsAAAAD 192.168.86.114 52959 192.168.86.83 80
+--70175b2f-B--
+GET %server.policy HTTP/1.1
+Host: 192.168.86.83
+
+--70175b2f-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--70175b2f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--70175b2f-H--
+Stopwatch: 1490567192682591 425 (- - -)
+Stopwatch2: 1490567192682591 425; combined=150, p1=146, p2=0, p3=0, p4=0, p5=4, sr=61, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--70175b2f-Z--
+
+--70175b2f-A--
+[26/Mar/2017:18:26:32 --0400] WNhAGH8AAQEAADY0yT0AAAAI 192.168.86.114 60891 192.168.86.83 80
+--70175b2f-B--
+GET %login-config.xml HTTP/1.1
+Host: 192.168.86.83
+
+--70175b2f-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--70175b2f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--70175b2f-H--
+Stopwatch: 1490567192687360 817 (- - -)
+Stopwatch2: 1490567192687360 817; combined=526, p1=523, p2=0, p3=0, p4=0, p5=3, sr=384, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--70175b2f-Z--
+
+--70175b2f-A--
+[26/Mar/2017:18:26:32 --0400] WNhAGH8AAQEAADY273AAAAAJ 192.168.86.114 38997 192.168.86.83 80
+--70175b2f-B--
+GET %org/jboss/version.properties HTTP/1.1
+Host: 192.168.86.83
+
+--70175b2f-F--
+HTTP/1.1 400 Bad Request
+Content-Length: 226
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--70175b2f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--70175b2f-H--
+Stopwatch: 1490567192692754 552 (- - -)
+Stopwatch2: 1490567192692754 552; combined=122, p1=119, p2=0, p3=0, p4=0, p5=3, sr=37, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--70175b2f-Z--
+
+--70175b2f-A--
+[26/Mar/2017:18:26:32 --0400] WNhAGH8AAQEAADY94dMAAAAH 192.168.86.114 34741 192.168.86.83 80
+--70175b2f-B--
+POST /.jsp HTTP/1.1
+Host: 192.168.86.83
+Content-Length: -1
+
+--70175b2f-F--
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+--70175b2f-E--
+
+--70175b2f-H--
+Stopwatch: 1490567192734913 703 (- - -)
+Stopwatch2: 1490567192734913 703; combined=156, p1=143, p2=11, p3=0, p4=0, p5=2, sr=44, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--70175b2f-Z--
+
+--5b7e082f-A--
+[26/Mar/2017:18:26:55 --0400] WNhAL38AAQEAADZraRMAAAAF 192.168.86.114 57723 192.168.86.83 80
+--5b7e082f-B--
+GET /server-status?auto HTTP/1.1
+Host: 192.168.86.83
+
+--5b7e082f-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 222
+Content-Type: text/html; charset=iso-8859-1
+
+--5b7e082f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /server-status
+on this server.<br />
+</p>
+</body></html>
+
+--5b7e082f-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490567215292902 701 (- - -)
+Stopwatch2: 1490567215292902 701; combined=143, p1=130, p2=0, p3=0, p4=0, p5=13, sr=44, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--5b7e082f-Z--
+
+--5b7e082f-A--
+[26/Mar/2017:18:26:55 --0400] WNhAL38AAQEAADY0yUEAAAAI 192.168.86.114 49723 192.168.86.83 80
+--5b7e082f-B--
+GET /server-status?auto HTTP/1.1
+Host: 192.168.86.83
+
+--5b7e082f-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 222
+Content-Type: text/html; charset=iso-8859-1
+
+--5b7e082f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /server-status
+on this server.<br />
+</p>
+</body></html>
+
+--5b7e082f-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490567215295325 640 (- - -)
+Stopwatch2: 1490567215295325 640; combined=171, p1=167, p2=0, p3=0, p4=1, p5=3, sr=39, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--5b7e082f-Z--
+
+--5b7e082f-A--
+[26/Mar/2017:18:26:55 --0400] WNhAL38AAQEAADZHKLEAAAAD 192.168.86.114 56977 192.168.86.83 80
+--5b7e082f-B--
+GET /server-status?auto HTTP/1.1
+Host: 192.168.86.83
+
+--5b7e082f-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 222
+Content-Type: text/html; charset=iso-8859-1
+
+--5b7e082f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /server-status
+on this server.<br />
+</p>
+</body></html>
+
+--5b7e082f-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490567215292504 7299 (- - -)
+Stopwatch2: 1490567215292504 7299; combined=137, p1=133, p2=0, p3=1, p4=0, p5=3, sr=34, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--5b7e082f-Z--
+
+--5b7e082f-A--
+[26/Mar/2017:18:26:55 --0400] WNhAL38AAQEAADZs1lwAAAAL 192.168.86.114 41235 192.168.86.83 80
+--5b7e082f-B--
+GET / HTTP/1.1
+Host: 192.168.86.83
+Expect: <script>alert(document.domain)</script>
+
+--5b7e082f-F--
+HTTP/1.1 417 Expectation Failed
+Content-Length: 403
+Content-Type: text/html; charset=iso-8859-1
+
+--5b7e082f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>417 Expectation Failed</title>
+</head><body>
+<h1>Expectation Failed</h1>
+<p>The expectation given in the Expect request-header
+field could not be met by this server.
+The client sent<pre>
+    Expect: &lt;script&gt;alert(document.domain)&lt;/script&gt;
+</pre>
+</p><p>Only the 100-continue expectation is supported.</p>
+</body></html>
+
+--5b7e082f-H--
+Stopwatch: 1490567215303957 314 (- - -)
+Stopwatch2: 1490567215303957 314; combined=122, p1=120, p2=0, p3=0, p4=0, p5=2, sr=36, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--5b7e082f-Z--
+
+--5b7e082f-A--
+[26/Mar/2017:18:26:55 --0400] WNhAL38AAQEAADKx9hkAAAAB 192.168.86.114 44517 192.168.86.83 80
+--5b7e082f-B--
+<SCRIPT>NXSSTEST</SCRIPT> / HTTP/1.1
+Host: 192.168.86.83
+Content-Length: 9999999999999999999999999999999999999999999999
+
+--5b7e082f-F--
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+Set-Cookie: PHPSESSID=rh54tkg5hcf0jhm9uo97ang3p2; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=rh54tkg5hcf0jhm9uo97ang3p2; path=/; HttpOnly
+Set-Cookie: security=impossible; HttpOnly
+Location: login.php
+
+--5b7e082f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>Your browser sent a request that this server could not understand.<br />
+</p>
+</body></html>
+
+--5b7e082f-H--
+Message: Request body (Content-Length) is larger than the configured limit (13107200).
+Message: Request body (Content-Length) is larger than the configured limit (13107200).
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1490567215304560 2928 (- - -)
+Stopwatch2: 1490567215304560 2928; combined=141, p1=136, p2=0, p3=0, p4=0, p5=4, sr=38, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--5b7e082f-Z--
+
+--5b7e082f-A--
+[26/Mar/2017:18:26:55 --0400] WNhAL38AAQEAADY-aoAAAAAN 192.168.86.114 54417 192.168.86.83 80
+--5b7e082f-B--
+GET /server-status?refresh=1;http://example.com HTTP/1.1
+Host: 192.168.86.83
+
+--5b7e082f-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 222
+Content-Type: text/html; charset=iso-8859-1
+
+--5b7e082f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /server-status
+on this server.<br />
+</p>
+</body></html>
+
+--5b7e082f-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490567215323486 975 (- - -)
+Stopwatch2: 1490567215323486 975; combined=157, p1=153, p2=0, p3=0, p4=0, p5=4, sr=50, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--5b7e082f-Z--
+
+--5b7e082f-A--
+[26/Mar/2017:18:26:55 --0400] WNhAL38AAQEAADYWA8MAAAAG 192.168.86.114 39319 192.168.86.83 80
+--5b7e082f-B--
+GET /server-status?refresh=1;http://example.com HTTP/1.1
+Host: 192.168.86.83
+
+--5b7e082f-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 222
+Content-Type: text/html; charset=iso-8859-1
+
+--5b7e082f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /server-status
+on this server.<br />
+</p>
+</body></html>
+
+--5b7e082f-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490567215327641 1000 (- - -)
+Stopwatch2: 1490567215327641 1000; combined=148, p1=143, p2=0, p3=1, p4=0, p5=3, sr=34, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--5b7e082f-Z--
+
+--5b7e082f-A--
+[26/Mar/2017:18:26:55 --0400] WNhAL38AAQEAADZzpGQAAAAM 192.168.86.114 59405 192.168.86.83 80
+--5b7e082f-B--
+GET /server-status?refresh=1;http://example.com HTTP/1.1
+Host: 192.168.86.83
+
+--5b7e082f-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 222
+Content-Type: text/html; charset=iso-8859-1
+
+--5b7e082f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /server-status
+on this server.<br />
+</p>
+</body></html>
+
+--5b7e082f-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490567215326333 2487 (- - -)
+Stopwatch2: 1490567215326333 2487; combined=158, p1=154, p2=0, p3=0, p4=0, p5=4, sr=39, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--5b7e082f-Z--
+
+--5b7e082f-A--
+[26/Mar/2017:18:26:55 --0400] WNhAL38AAQEAADY94doAAAAH 192.168.86.114 42049 192.168.86.83 80
+--5b7e082f-B--
+PUT /r7.txt HTTP/1.1
+Host: 192.168.86.83
+Content-Length: 35
+Content-Type: text/plain
+
+--5b7e082f-C--
+Rapid7 Unrestricted WebDAV PUT Test
+--5b7e082f-F--
+HTTP/1.1 405 Method Not Allowed
+Allow: GET,HEAD,POST,OPTIONS
+Content-Length: 227
+Content-Type: text/html; charset=iso-8859-1
+
+--5b7e082f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>405 Method Not Allowed</title>
+</head><body>
+<h1>Method Not Allowed</h1>
+<p>The requested method PUT is not allowed for the URL /r7.txt.</p>
+</body></html>
+
+--5b7e082f-H--
+Stopwatch: 1490567215333744 505 (- - -)
+Stopwatch2: 1490567215333744 505; combined=132, p1=119, p2=10, p3=0, p4=0, p5=3, sr=32, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--5b7e082f-Z--
+
+--5b7e082f-A--
+[26/Mar/2017:18:26:55 --0400] WNhAL38AAQEAADY-aoEAAAAN 192.168.86.114 51967 192.168.86.83 80
+--5b7e082f-B--
+GET /server-status?auto HTTP/1.1
+Host: 192.168.86.83
+
+--5b7e082f-F--
+HTTP/1.1 403 Forbidden
+Content-Length: 222
+Content-Type: text/html; charset=iso-8859-1
+
+--5b7e082f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access /server-status
+on this server.<br />
+</p>
+</body></html>
+
+--5b7e082f-H--
+Apache-Error: [file "mod_authz_core.c"] [line 873] [level 3] AH01630: client denied by server configuration: %s%s
+Stopwatch: 1490567215393800 31515 (- - -)
+Stopwatch2: 1490567215393800 31515; combined=152, p1=150, p2=0, p3=0, p4=0, p5=2, sr=62, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--5b7e082f-Z--
+
+--5b7e082f-A--
+[26/Mar/2017:18:26:55 --0400] WNhAL38AAQEAADY94eIAAAAH 192.168.86.114 42587 192.168.86.83 80
+--5b7e082f-B--
+TRACE / HTTP/1.1
+Host: 192.168.86.83
+Cookie: vulnerable=yes
+
+--5b7e082f-F--
+HTTP/1.1 405 Method Not Allowed
+Allow: 
+Content-Length: 223
+Content-Type: text/html; charset=iso-8859-1
+
+--5b7e082f-E--
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>405 Method Not Allowed</title>
+</head><body>
+<h1>Method Not Allowed</h1>
+<p>The requested method TRACE is not allowed for the URL /.</p>
+</body></html>
+
+--5b7e082f-H--
+Stopwatch: 1490567215577600 7091 (- - -)
+Stopwatch2: 1490567215577600 7091; combined=142, p1=137, p2=0, p3=0, p4=0, p5=4, sr=39, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/2.2.9.
+Server: Apache/2.4.18
+Engine-Mode: "DETECTION_ONLY"
+
+--5b7e082f-Z--
 
