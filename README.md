@@ -1,7 +1,7 @@
 # auditlog_reader
-Python3 script that parses data into an SQL database, labeling possible attack vectors. 
+Python3 script that parses a large data set into an organized SQL database, labeling possible attack vectors. 
 
-Utilizes sqlite3 to write to a database for further analysis. 
+Utilizes sqlite3 to write to a database for further analysis, see SQL_Output.png. 
 
 Possible attack vectors include:
 1. Directory traversal
